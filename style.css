@@ -74,7 +74,7 @@ nav {
     background-color: black;
     flex-direction:column;
     height: 100px;
-    width: 1200px;
+    max-width: 1200px;
     text-align: center;
     justify-content: space-between;
     padding: 10px 0;
@@ -89,13 +89,13 @@ nav {
 }
 
 .month-text {
-    width: 1000px;
+    max-width: 1000px;
     text-align: center;
     margin-bottom: 10px;
 }
 
 .month-tea {
-    width: 1000px;
+    max-width: 1000px;
     flex-flow: wrap;
     justify-content: center;
     
@@ -113,8 +113,8 @@ nav {
 /* Locations Section */
 .background-location {
     background-image: url("img-locations-background.webp");
-    width: 1200px;
-    height: 500px;
+    max-width: 1200px;
+    min-height: 500px;
     background-position: center;
     margin: 0 auto;
     flex-direction: column;
