@@ -48,7 +48,7 @@ nav .container {
 
 /*header section*/
 .hero {
-    background: no-repeat url("/img-mission-background.webp");
+    background: no-repeat url("img-mission-background.webp");
     background-position: center;
     height: 700px;
     width: auto;
@@ -99,7 +99,7 @@ nav .container {
 
 /* Locations Section */
 .background-location {
-    background-image: url("/img-locations-background.webp");
+    background-image: url("img-locations-background.webp");
     width: 1200px;
     height: 500px;
     background-position: center;
