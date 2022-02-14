@@ -162,13 +162,12 @@ nav {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1040px){
    
 
     .address-card {
         width: 250px;
         height: 250px;
-        margin: 0;
         text-align: center;
         margin: 5px;
     }
@@ -176,9 +175,10 @@ nav {
 }
 
 @media screen and (max-width: 430px) {
-    html {
+    .flex-430px {
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
     }
     .nav-container {
         flex-direction: column;
