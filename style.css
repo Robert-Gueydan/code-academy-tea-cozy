@@ -77,7 +77,7 @@ nav {
     background-color: black;
     flex-direction:column;
     min-height: 100px;
-    max-width: 1200px;
+    width: 100%;
     text-align: center;
     justify-content: space-between;
     padding: 10px 0;
@@ -174,14 +174,30 @@ nav {
     
 }
 
+@media screen and (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-container a {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+    
+}
+
 @media screen and (max-width: 430px) {
     .flex-430px {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
     }
-    .nav-container {
-        flex-direction: column;
-    }
+    /* .nav-container a {
+        font-size: 18px;
+    } */
+
+
 }
+
+
 
